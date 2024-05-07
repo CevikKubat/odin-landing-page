@@ -1,4 +1,119 @@
+/* GLOBAL STYLES */
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+
+}
+/* SECTION: HEADER */
+.header{
+    display: flex;
+
+}
+
+h1{
+
+}
+
+.header-links{
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+
+/* SECTION: MAIN */
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* subsection: section-1 */
+.section-1{
+
+}
+
+.section-1 h2{
+
+}
+
+.section-1-text{
+
+}
+
+.button-1{
+
+}
+
+.placeholder-image{
+
+}
+
+/* subsection: section-2 */
+.section-2{
+    
+}
+
+.section-2 h2{
+
+}
+
+.box-text{
+
+}
+
+.box{
+
+}
+
+.text{
+
+}
+
+/* subsection: section-3 */
+.section-3{
+    
+}
+
+.quote{
+
+}
+
+/* subsection: section-4 */
+.section-4{
+    
+}
+
+.CTA-text-1{
+
+}
+
+.CTA-text-2{
+
+}
+
+.button-2{
+
+}
+
+/* SECTION: FOOTER */
+.footer{
+
+}
+
+.copyright{
+    
+}
