@@ -22,23 +22,36 @@ button{
 /* SECTION: HEADER */
 .header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: solid green;
+    background-color: #1F2937;
 }
 
 h1{
-
+    color: white;
+    font-size: medium;
+    margin-left: 80px;
 }
 
 .header-links{
-
 }
 
 ul{
-
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin-right: 80px;
 }
 
 li{
+    display: inline;
+}
 
+a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
 }
 
 
