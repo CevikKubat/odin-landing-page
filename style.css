@@ -38,9 +38,6 @@ h1{
     margin-left: 80px;
 }
 
-.header-links{
-}
-
 ul{
     display: flex;
     list-style-type: none;
@@ -69,7 +66,14 @@ a{
 
 /* subsection: section-1 */
 .section-1{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
 
+.section-1-1{
+    display: flex;
+    flex-direction: column;
 }
 
 .section-1 h2{
@@ -81,7 +85,7 @@ a{
 }
 
 .button-1{
-
+    align-self: start;
 }
 
 .placeholder-image{
