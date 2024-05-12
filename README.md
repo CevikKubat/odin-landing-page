@@ -1,3 +1,3 @@
 # Odin Landing Page
 
-My solution to <a href="https://www.theodinproject.com/lessons/foundations-landing-page">this</a> assignment from the Odin Project.
+My solution to <a href="https://www.theodinproject.com/lessons/foundations-landing-page">the landing page assignment</a> from the Odin Project.
