@@ -21,8 +21,9 @@ button{
     background-color: #3882F6;
     border: none;
     border-radius: 3px;
-    padding-block: 4px;
-    padding-inline: 15px;
+    padding-block: 6px;
+    padding-inline: 20px;
+    font-size: 12px;
 }
 /* SECTION: HEADER */
 .header{
@@ -61,7 +62,6 @@ a{
 .main-content{
     display: flex;
     flex-direction: column;
-    border: solid orange;
     flex: 1;
 }
 
@@ -69,8 +69,9 @@ a{
 .section-1{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
-    gap: 30px;
+    gap: 50px;
     padding: 50px;
 }
 
@@ -182,25 +183,59 @@ a{
 
 /* subsection: section-4 */
 .section-4{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 65px;
+}
+
+.CTA{
+    display: flex;
+    background-color: #3882F6;
+    flex-basis: 500px;
+    padding-inline: 80px;
+    padding-block: 15px;
+    border-radius: 9px;
+    color: white;
+}
+
+.CTA-texts{
+    margin-right: 110px;
 }
 
 .CTA-text-1{
-
+    font-weight: bold;
+    margin-bottom: 4px; 
 }
 
 .CTA-text-2{
-
+    color: rgba(255, 255, 255, 0.885);
+    font-size: 11px;
+    font-weight: lighter;
 }
 
 .button-2{
-
+    margin: 0x;
+    border: solid white;
+    border-width: 1px;
+    padding: 0px;
+    border-radius: 6px;
+    padding-block: 6px;
+    padding-inline: 20px;
+    font-size: 12px;
+    min-width: 100px;
+    max-height: 30px;
+    align-self: center;
 }
 
 /* SECTION: FOOTER */
 .footer{
     display: flex;
-    border: solid red;
+    justify-content: center;
+    background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.738);
+    padding-block: 20px;
+    font-size: 12px;
 }
 
 .copyright{
