@@ -123,10 +123,6 @@ a{
     margin: 50px;
 }
 
-.section-2 h2{
-    
-}
-
 .boxes{
     display: flex;
     justify-content: space-between;
@@ -236,8 +232,4 @@ a{
     color: rgba(255, 255, 255, 0.738);
     padding-block: 20px;
     font-size: 12px;
-}
-
-.copyright{
-
 }
