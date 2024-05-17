@@ -156,11 +156,28 @@ a{
 
 /* subsection: section-3 */
 .section-3{
-    background-color: rgba(128, 128, 128, 0.456);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(147, 199, 206, 0.228);
+    padding: 50px;
 }
 
 .quote{
+    font-weight: 100;
+    font-size: x-large;
+    text-align: center;
+    font-style: oblique;
+    line-height: 40px;
+    max-width: 500px;
+}
 
+.quote-author{
+    align-self: center;
+    margin-left: 350px;
+    font-weight: bold;
 }
 
 /* subsection: section-4 */
