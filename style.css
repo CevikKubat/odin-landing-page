@@ -85,7 +85,7 @@ a{
 }
 
 .placeholder-image{
-    width: 500px;
+    min-width: 500px;
     height: 155px;
     margin-right: 80px;
     background-color: grey;
@@ -94,7 +94,7 @@ a{
 .section-1 h2{
     font-size: xx-large;
     flex-wrap: wrap;
-    color: white
+    color: white;
 }
 
 .section-1-text{
@@ -104,6 +104,7 @@ a{
     padding: none;
     font-weight: 200;
     color: rgba(255, 255, 255, 0.782);
+    min-width: 200px;
 }
 
 .button-1{
